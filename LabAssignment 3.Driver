@@ -50,13 +50,6 @@ public class LabAssignment3 {
 
     }
     
-    public static boolean nameValidator(String name){
-        String[] nameAry = name.split(" ");
-        for(int i = 0; i < nameAry.length;i++){
-            if (!nameAry[i].matches("^[A-Z]([a-zA-Z]*[-]*)*"))
-                return false;
-        }
-        return true;
-    }
+    
 
 }
